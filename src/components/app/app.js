@@ -61,7 +61,7 @@ class App extends Component {
         // )
     }
 
-    onToggle = (id) => {
+    onToggleRise = (id) => {
         this.setState(({data}) => ({
             data: data.map(item => {
                 if (item.id === id) {
